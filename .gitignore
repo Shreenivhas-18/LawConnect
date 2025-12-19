@@ -1,0 +1,31 @@
+# Environment variables (IMPORTANT - hides your API key)
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.venv/
+.venv1/
+venv/
+env/
+
+# Project specific
+uploads/
+vectorstore/
+model_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
